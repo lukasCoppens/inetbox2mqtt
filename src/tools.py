@@ -44,7 +44,7 @@ PIN_MAPS = {
     "ESP32C3":
     {
     "logic": "esp32",
-    "mqtt_led": 8,
+    "mqtt_led": 0,
     "lin_led": 0,
     "lan": 0,
     "mdc" : 0,
