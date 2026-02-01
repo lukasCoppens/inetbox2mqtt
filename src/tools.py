@@ -41,6 +41,26 @@ PIN_MAPS = {
     "sl_scl": 25,
     },
     
+    "ESP32C3":
+    {
+    "logic": "esp32",
+    "mqtt_led": 8,
+    "lin_led": 0,
+    "lan": 0,
+    "mdc" : 0,
+    "mdio": 0,
+    "ref_clk": 0,
+    "lin_uart": 2,
+    "lin_rx": 20,
+    "lin_tx": 21,
+    "dc_green_pin": [1, 18, 1], 
+    "dc_red_pin": [1, 19, 1],
+    "dc_i_pin": [0, 22, 1], 
+    "dc_ii_pin": [0, 23, 1], 
+    "sl_i2c": 1,
+    "sl_sda": 8,
+    "sl_scl": 9,
+    },
     
     "PEKAWAY":
     {
