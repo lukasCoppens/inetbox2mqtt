@@ -45,7 +45,7 @@ if (w.run_mode() > 1):
     import mip
     import time
     try:
-        mip.install("github:mc0110/inetbox2mqtt/src/" + UPDATE, target = "/")
+        mip.install("github:lukasCoppens/inetbox2mqtt/src/" + UPDATE, target = "/")
     except:
         import machine
         machine.reset()            
